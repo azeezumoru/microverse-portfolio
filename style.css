@@ -113,9 +113,10 @@ p {
 
 .text-container p {
   margin: -8px 0 0 13px;
-  font-weight: 400px;
-  font-size: 19px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
+  color: #344563;
 }
 
 .socials h6 {

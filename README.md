@@ -1,93 +1,187 @@
-📗 Table of Contents
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ (OPTIONAL)
-📝 License
+<a name="readme-top"></a>
 
-📖 [My mobile version project]
+<!-- TABLE OF CONTENTS -->
 
->This project is about creating a portfolio page using best practices for HTML and CSS and uses linters, GitHub Flow rules and documentation of work. It is important to start with a new repository and setup the linters, follow a design template for the portfolio or create your own through Figma and code it using HTML and CSS. I built the mobile website using a Figma template provided by Microverse. I used the linters - GitHub Actions, Lighthouse, Webhint and Stylelint to make this project error-free. Also, all the other files except the HTML and CSS files were added to feature branches to make the main branch remain in best possible condition and stable.
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## 🛠 Built With
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 [Microverse-Portfolio] <a name="about-project"></a>
+
+**[Microverse-Portfolio]** is a website that tells recruiters and hiring managers about me, and showcases my past projects.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+  Client
+  
 - HTML, CSS
 - No Frameworks
-
-## Tech Stack
-
 - Technologies Used- HTML, CSS, GIT, Linters (GitHub Actions, Lighthouse, Webhint, Stylelint)
 
-## Key Features
-<ol>
-   <li>**Create a new GitHub repository.</li>
-   <li>**Clone the repository to the local env through commandline/terminal or code editors like Visual Studio Code.</li>
-   <li>**Create a new feature branch.</li>
-   <li>**Create .gitignore file.</li>
-   <li>**Set up GitHub Actions and linters in the local env.</li>
-   <li>**Add the main files and folders to the main branch.</li>
-   <li>** Add the following files in separate commits-</li>
-     <ol>
-       <li>A .html file for the skeletal makeup of the webpage.</li>
-       <li>A .css file for styling the webpage.</li>
-     </ol>
-   <li>**Open a pull request.</li>
-   <li>**Submit the project for the code review.</li>
-   <li>**After receiving the review, work on the required changes(if any) and submit again. Keep learning!!!</li>
-</ol>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- It tells recruiters and hiring managers about me.
+- It showcases my past projects.
 
 
-To get a local copy up and running follow these simple example steps.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-Knowledge of HTML, CSS, Linters, Git & GitHub flows and documenting a repo in a professional way
+
+In order to run this project you need:
+
+You need to have npm installed on your PC first.
+
+
 
 ### Setup
-A browser is required to be installed for view the contents and an Code editor to edit the code.
+
+Clone this repository to your desired folder:
+
+[https://github.com/azeezumoru/microverse-portfolio.git]
+
+
 
 ### Install
-You can use this link [https://github.com/azeezumoru/microverse-portfolio.git] to clone my repo
-Clone the repository and use a browser to open the index.html to view the portfolio webpage
+
+Install this project with:
+
+-Copy the URL [https://github.com/azeezumoru/microverse-portfolio.git].
+
+-In Visual Studio Code “Terminal” change the current working directory to the location where you want the cloned directory.
+
+-Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+
+git clone https://github.com/azeezumoru/microverse-portfolio.git
+
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+### Deployment
+
+You can deploy this project using:
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Author1**
 
-- GitHub: [@Alabi12](https://github.com/azeezumoru)
-- Twitter: [@wolo_robert](https://twitter.com/azeez_umoru)
+- GitHub: [@seyioyemade](https://github.com/azeezumoru)
+- Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Finish mobile version
+- Contact form
+- Desktop version
+- Application deploy
+- Evaluate accessibility
+- Mobile menu
+- Details modal
+- Validate contact form
+- Preserve data in the browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check this site  https://github.com/azeezumoru/microverse-portfolio.git
+Feel free to check the issues page.
 
-## Show your support
+-[https://github.com/azeezumoru/microverse-portfolio/issues]
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- SUPPORT -->
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+## ⭐️ Show your support <a name="support"></a>
 
-📝 License
-This project is MIT licensed.
+If you like this project and would love to show your support, please contact the author.
 
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank [Microverse](https://www.microverse.org/) for giving this opportunity to learn.
+- Code Reviewers & Coding Partners.
+- Hat tip to anyone whose code was used.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

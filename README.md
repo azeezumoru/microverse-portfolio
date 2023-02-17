@@ -118,7 +118,7 @@ You can deploy this project using:
 
 👤 **Author1**
 
-- GitHub: [@seyioyemade](https://github.com/azeezumoru)
+- GitHub: [@azeezumoru](https://github.com/azeezumoru)
 - Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 

@@ -1,15 +1,39 @@
-# Microverse-portfolio
+📗 Table of Contents
+📖 About the Project
+🛠 Built With
+Tech Stack
+Key Features
+🚀 Live Demo
+💻 Getting Started
+Setup
+Prerequisites
+Install
+Usage
+Run tests
+Deployment
+👥 Authors
+🔭 Future Features
+🤝 Contributing
+⭐️ Show your support
+🙏 Acknowledgements
+❓ FAQ (OPTIONAL)
+📝 License
+
+📖 [My mobile version project]
 
 >This project is about creating a portfolio page using best practices for HTML and CSS and uses linters, GitHub Flow rules and documentation of work. It is important to start with a new repository and setup the linters, follow a design template for the portfolio or create your own through Figma and code it using HTML and CSS. I built the mobile website using a Figma template provided by Microverse. I used the linters - GitHub Actions, Lighthouse, Webhint and Stylelint to make this project error-free. Also, all the other files except the HTML and CSS files were added to feature branches to make the main branch remain in best possible condition and stable.
 
 
-## Built With
+## 🛠 Built With
 
 - HTML, CSS
 - No Frameworks
+
+## Tech Stack
+
 - Technologies Used- HTML, CSS, GIT, Linters (GitHub Actions, Lighthouse, Webhint, Stylelint)
 
-## Getting Started
+## Key Features
 <ol>
    <li>**Create a new GitHub repository.</li>
    <li>**Clone the repository to the local env through commandline/terminal or code editors like Visual Studio Code.</li>
@@ -37,6 +61,7 @@ Knowledge of HTML, CSS, Linters, Git & GitHub flows and documenting a repo in a 
 A browser is required to be installed for view the contents and an Code editor to edit the code.
 
 ### Install
+You can use this link [https://github.com/azeezumoru/microverse-portfolio.git] to clone my repo
 Clone the repository and use a browser to open the index.html to view the portfolio webpage
 
 👤 **Author1**
@@ -62,8 +87,7 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
+📝 License
+This project is MIT licensed.
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.

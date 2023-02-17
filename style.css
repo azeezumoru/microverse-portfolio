@@ -1,0 +1,147 @@
+:root {
+  --bg-purple: #6070ff;
+  --bg-dark-blue: #172b4d;
+  --bg-lavender: #ebebff;
+  --bg-slate-grey: #505f79;
+  --text-dark-blue: #344563;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+html body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*:not(i) {
+  font-family: var(--font-poppins);
+}
+
+.mheadline {
+  background-image: url("./images/header-shapes.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6rem 1.5rem;
+  background-color: #fff;
+  border-bottom-left-radius: calc(10rem / 3);
+}
+
+.container {
+  min-height: 650px;
+  overflow-x: hidden;
+}
+
+.after-body {
+  z-index: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--text-dark-blue);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+h3 {
+  color: var(--bg-dark-blue);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h6 {
+  color: var(--bg-purple);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  padding: 1rem 0;
+  color: var(--text-dark-blue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem 1.5rem 1.5rem 2.8rem;
+}
+
+.navbar .logo {
+  margin: 0 0 0 -9px;
+}
+
+.hamburger {
+  display: flex;
+  cursor: pointer;
+  margin: 0 24px 0 0;
+}
+
+.text-container h1 {
+  margin: 20px 0 0 11px;
+}
+
+.text-container p {
+  margin: -8px 0 0 13px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.socials h6 {
+  margin: 7px 0 0 13px;
+}
+
+.logo:active {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #172b4d;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 12px 0 0 13px;
+  font-size: 23px;
+  color: black;
+}

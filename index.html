@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Umoru's portfolio</title>
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
@@ -17,64 +15,57 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <header class="header">
-      <nav class="navbar">
-        <a class="logo" href="#">My Logo</a>
-        <div class="hamburger">
-        <img src="./images/outline_menu.png" alt="">
-        </div>
-      </nav>
-  </header>
+  </head>
 
-  <section class="mheadline" id="portfolio-id">
-    <div class="text-container">
-      <h1>
-        I'm Umoru<br />
-        Glad to see you!
-      </h1>
-      <p>
-        I'm a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hestiate to contact
-        me.
-      </p>
-      </div>
-      <div class="socials">
-        <h6>LET'S CONNECT</h6>
-        <ul class="social-icon">
-          <li>
-            <a href="#"><img src="./images/twitter.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/Linkedin.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/medium.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/github.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/victory.png" alt=""></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="projects" id="about-id">
-      <div class="desktop-project-container">
-        <article class="white-back">
-          <img
-            class="mobile-work-img"
-            src="./images/project_1.png"
-            alt="tonic project preview"
-          />
-          <div class="desktop-work-detail">
+  <body>
+    <div class="after-bdy">
+      <div class="portfolio-class">
+        <nav class="flex white-back">
+          <a id="title" href="#">My Logo</a>
+          <div class="flex icon-stack-container">
+            <span id="icon-stack"></span>
+          </div>
+        </nav>
+        <main class="main-headline white-back">
+          <article>
+            <h1>
+              I'm Umoru<br />
+              Glad to see <br />
+              you!
+            </h1>
+            <p>
+              I'm a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don't
+              hestiate to contact me.
+            </p>
+            <div class="socials">
+              <h6>LET'S CONNECT</h6>
+              <ul class="icons_social__container flex">
+                <li>
+                  <a href="#"><img src="images/twitter.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/Linkedin.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/medium.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/github.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/victory.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </main>
+        <section class="projects">
+          <article class="card flex white-back">
+            <img src="./images/project_1.png" alt="tonic project preview" />
             <h3>Tonic</h3>
-            <ul class="project-details">
+            <ul class="flex project_details">
               <li>CANOPY</li>
               <li>BACKEND DEV</li>
               <li>2015</li>
@@ -83,29 +74,20 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="project_coding_langs">
+            <ul class="flex project_coding_langs">
               <li>html</li>
               <li>css</li>
               <li>javascript</li>
             </ul>
             <button class="preview_button outlinings">See Project</button>
-          </div>
-        </article>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects" id="about-id">
-      <div class="desktop-project-container">
-        <article class="white-back">
-          <img
-            class="mobile-work-img"
-            src="./images/Snapshoot Portfolio2.png"
-            alt="tonic project preview"
-          />
-          <div class="desktop-work-detail">
+          </article>
+          <article class="card flex white-back">
+            <img
+              src="./images/project_2.png"
+              alt="Multi-Post project preview"
+            />
             <h3>Multi-Post Stories</h3>
-            <ul class="project-details">
+            <ul class="flex project_details">
               <li>CANOPY</li>
               <li>BACKEND DEV</li>
               <li>2015</li>
@@ -114,29 +96,17 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="project_coding_langs">
+            <ul class="flex project_coding_langs">
               <li>html</li>
               <li>css</li>
               <li>javascript</li>
             </ul>
             <button class="preview_button outlinings">See Project</button>
-          </div>
-        </article>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects" id="about-id">
-      <div class="desktop-project-container">
-        <article class="white-back">
-          <img
-            class="mobile-work-img"
-            src="./images/Snapshoot Portfolio3.png"
-            alt="tonic project preview"
-          />
-          <div class="desktop-work-detail">
+          </article>
+          <article class="card flex white-back">
+            <img src="./images/project_3.png" alt="tonic project preview" />
             <h3>Tonic</h3>
-            <ul class="project-details">
+            <ul class="flex project_details">
               <li>CANOPY</li>
               <li>BACKEND DEV</li>
               <li>2015</li>
@@ -145,29 +115,20 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="project_coding_langs">
+            <ul class="flex project_coding_langs">
               <li>html</li>
               <li>css</li>
               <li>javascript</li>
             </ul>
             <button class="preview_button outlinings">See Project</button>
-          </div>
-        </article>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects" id="about-id">
-      <div class="desktop-project-container">
-        <article class="white-back">
-          <img
-            class="mobile-work-img"
-            src="./images/Snapshoot Portfolio4.png"
-            alt="tonic project preview"
-          />
-          <div class="desktop-work-detail">
+          </article>
+          <article class="card flex white-back">
+            <img
+              src="./images/project_4.png"
+              alt="Multi-Post project preview"
+            />
             <h3>Multi-Post Stories</h3>
-            <ul class="project-details">
+            <ul class="flex project_details">
               <li>CANOPY</li>
               <li>BACKEND DEV</li>
               <li>2015</li>
@@ -176,86 +137,78 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="project_coding_langs">
+            <ul class="flex project_coding_langs">
               <li>html</li>
               <li>css</li>
               <li>javascript</li>
             </ul>
             <button class="preview_button outlinings">See Project</button>
+          </article>
+        </section>
+        <section class="about white-back">
+          <div>
+            <h1>
+              About <br />
+              Myself
+            </h1>
+            <p>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <div class="socials">
+              <h6>LET'S CONNECT</h6>
+              <ul class="icons_social__container flex">
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <button class="outlinings">Get my resume</button>
+            <ul class="about__stacks">
+              <li class="about_stacks__item" style="border-bottom: 0px">
+                <span>Languages</span>
+                <i class="fa fa-angle-down" style="color: #acb7c3"></i>
+              </li>
+              <ul class="lang">
+                <li class="js">
+                  <img src="images/js.png" alt="" />
+                  <h3>JavaScript</h3>
+                </li>
+                <li class="html">
+                  <img src="images/html.png" alt="" />
+                  <h3>HTML</h3>
+                </li>
+                <li class="css">
+                  <img src="images/css.png" alt="" />
+                  <h3>CSS</h3>
+                </li>
+              </ul>
+              <li class="about_stacks__item">
+                <span>Frameworks</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </li>
+              <li class="about_stacks__item">
+                <span>Skills</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </li>
+            </ul>
           </div>
-        </article>
-        </article>
+        </section>
       </div>
-    </section>
-
-    <section class="about-white-back">
-      <div class="desktop-about">
-        <h3>
-          About <br />
-          Myself
-        </h3>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <div class="socials-about">
-          <h6>LET'S CONNECT</h6>
-          <ul class="social-icon">
-            <li>
-              <a href="#"><img src="./images/twitter.png" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/Linkedin.png" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/medium.png" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/github.png" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/victory.png" alt=""></a>
-            </li>
-          </ul>
-        </div>
-        <button class="outlinings">Get my resume</button>
-      </div>
-      <div class="desktop-lang">
-        <ul class="about__stacks">
-          <li class="about_stacks__item" style="border-bottom: 0px">
-            <span>Languages</span>
-            <i class="fa fa-angle-down"></i>
-          </li>
-          <ul class="lang">
-            <li class="js">
-              <img src="images/js.png" alt="" />
-              <h3>JavaScript</h3>
-            </li>
-            <li class="html">
-              <img src="images/html.png" alt="" />
-              <h3>HTML</h3>
-            </li>
-            <li class="css">
-              <img src="images/css.png" alt="" />
-              <h3>CSS</h3>
-            </li>
-          </ul>
-          <ul>
-          <li class="about_stacks__item">
-            <span>Frameworks</span>
-            <i class="fa-solid fa-chevron-right"></i>
-          </li>
-          <li class="about_stacks__item">
-            <span>Skills</span>
-            <i class="fa-solid fa-chevron-right"></i>
-          </li>
-        </ul>
-      </div>
-    </section>
-    
-    </section>
-  </div>
-</body>
+    </div>
+  </body>
 </html>

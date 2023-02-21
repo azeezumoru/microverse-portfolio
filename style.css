@@ -125,8 +125,6 @@ button {
 
 .portfolio-class {
   position: relative;
-  min-width: 25vw;
-  width: 375px;
   min-height: 70vh;
   background-color: #f1f1f1;
   overflow: hidden;
@@ -323,7 +321,7 @@ nav {
   align-items: center;
 }
 
-.container {
+.form-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,7 +375,7 @@ textarea {
   display: block;
   justify-content: center;
   align-items: center;
-  width: 327px;
+  width: 305px;
   margin: auto;
   margin-bottom: 15px;
   background: #fff;
@@ -409,9 +407,7 @@ form > ul {
   letter-spacing: 0.03em;
   color: #6070ff;
   display: flex;
-  /* margin: 20px; */
   align-items: center;
-  /* padding: 12px 16px; */
   background: #fff;
   border-radius: 8px;
 }

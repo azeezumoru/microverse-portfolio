@@ -28,7 +28,7 @@
         </nav>
         <main class="main-headline white-back">
           <article>
-            <h1>
+            <h1 class="intro">
               I'm Umoru<br />
               Glad to see <br />
               you!
@@ -210,5 +210,49 @@
         </section>
       </div>
     </div>
+
+    <section class="form-container" id="contact-me-id">
+      <div class="section">
+        <div>
+          <h2 class="form-heading">Contact me</h2>
+          <p class="form-para">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/xlevolgp" method="post">
+          <label for="name"></label>
+          <input
+            name="name"
+            id="name"
+            type="text"
+            placeholder="name"
+            maxlength="30"
+            required
+          />
+
+          <label for="email"></label>
+          <input
+            name="Email"
+            id="email"
+            type="email"
+            placeholder="enter your email"
+            required
+          />
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <button class="form-btn" type="submit">Get in touch</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

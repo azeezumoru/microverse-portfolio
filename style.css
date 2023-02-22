@@ -125,8 +125,6 @@ button {
 
 .portfolio-class {
   position: relative;
-  min-width: 25vw;
-  width: 375px;
   min-height: 70vh;
   background-color: #f1f1f1;
   overflow: hidden;
@@ -180,10 +178,13 @@ nav {
 .main-headline {
   background-image: url("./images/header-shapes.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   padding: 6rem 1.5rem;
   border-bottom-left-radius: calc(10rem / 3);
 }
@@ -321,4 +322,103 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  background-image: url(images/form-img.png);
+  background-position: center right;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  height: 779px;
+  width: 375px;
+  border: 1px solid #ccc;
+  border-radius: 70px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-1 {
+  display: flex;
+  align-content: flex-end;
+}
+
+.form-heading {
+  margin-top: 100px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ebebff;
+}
+
+.form-para {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 10px;
+  margin: 0 10px 35px 10px;
+  color: #ebebff;
+}
+
+input,
+textarea {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  margin: auto;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+input {
+  height: 48px;
+}
+
+textarea {
+  height: 170px;
+}
+
+form > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-btn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+::placeholder {
+  color: #b3bac5;
+}
+
+.desktop-post {
+  display: none;
 }

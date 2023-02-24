@@ -1,258 +1,228 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Gentium+Plus:wght@700&family=Poppins&family=Roboto:wght@700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
-    <div class="after-bdy">
-      <div class="portfolio-class">
-        <nav class="flex white-back">
-          <a id="title" href="#">My Logo</a>
-          <div class="flex icon-stack-container">
-            <span id="icon-stack"></span>
-          </div>
+<body>
+    <header class="navbar container fixed-top">
+        <a href="#" id="logo">
+            Abdul
+        </a>
+        <nav>
+            <div class="menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <ul class="menu-list" >
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#about-myself">About</a></li>
+                    <li><a href="#my-form">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-        <main class="main-headline white-back">
-          <article>
-            <h1 class="intro">
-              I'm Umoru<br />
-              Glad to see <br />
-              you!
+    </header>
+    <br><br>
+    <div class="hero-holder">
+    <section class="hero">
+        <div class="container">
+            <h1 class="greetings">
+                I’m Umoru, <br/> Glad to see you!
             </h1>
-            <p>
-              I'm a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don't
-              hestiate to contact me.
+            <p class="about-me">
+                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
-            <div class="socials">
-              <h6>LET'S CONNECT</h6>
-              <ul class="icons_social__container flex">
-                <li>
-                  <a href="#"><img src="images/twitter.png" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/Linkedin.png" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/medium.png" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/github.png" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/victory.png" alt="" /></a>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </main>
-        <section class="projects">
-          <article class="card flex white-back">
-            <img src="./images/project_1.png" alt="tonic project preview" />
-            <h3>Tonic</h3>
-            <ul class="flex project_details">
-              <li>CANOPY</li>
-              <li>BACKEND DEV</li>
-              <li>2015</li>
+            <h3 class="connect-me">
+                <a href="#">LET'S CONNECT</a>
+            </h3>
+            <ul class="icon-group">
+                <li class="icon"> <a href=""><i class="fa-brands fa-github"></i></a></li>
+                <li class="icon"> <a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="icon"> <a href=""><i class="fa-brands fa-angellist"></i></a></li>
+                <li class="icon"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="icon"> <a href=""><i class="fa-solid fa-m"></i></a></li>
             </ul>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="flex project_coding_langs">
-              <li>html</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <button class="preview_button outlinings">See Project</button>
-          </article>
-          <article class="card flex white-back">
-            <img
-              src="./images/project_2.png"
-              alt="Multi-Post project preview"
-            />
-            <h3>Multi-Post Stories</h3>
-            <ul class="flex project_details">
-              <li>CANOPY</li>
-              <li>BACKEND DEV</li>
-              <li>2015</li>
-            </ul>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="flex project_coding_langs">
-              <li>html</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <button class="preview_button outlinings">See Project</button>
-          </article>
-          <article class="card flex white-back">
-            <img src="./images/project_3.png" alt="tonic project preview" />
-            <h3>Tonic</h3>
-            <ul class="flex project_details">
-              <li>CANOPY</li>
-              <li>BACKEND DEV</li>
-              <li>2015</li>
-            </ul>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="flex project_coding_langs">
-              <li>html</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <button class="preview_button outlinings">See Project</button>
-          </article>
-          <article class="card flex white-back">
-            <img
-              src="./images/project_4.png"
-              alt="Multi-Post project preview"
-            />
-            <h3>Multi-Post Stories</h3>
-            <ul class="flex project_details">
-              <li>CANOPY</li>
-              <li>BACKEND DEV</li>
-              <li>2015</li>
-            </ul>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="flex project_coding_langs">
-              <li>html</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <button class="preview_button outlinings">See Project</button>
-          </article>
-        </section>
-        <section class="about white-back">
-          <div>
-            <h1>
-              About <br />
-              Myself
-            </h1>
-            <p>
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <div class="socials">
-              <h6>LET'S CONNECT</h6>
-              <ul class="icons_social__container flex">
-                <li>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-              </ul>
-            </div>
-            <button class="outlinings">Get my resume</button>
-            <ul class="about__stacks">
-              <li class="about_stacks__item" style="border-bottom: 0px">
-                <span>Languages</span>
-                <i class="fa fa-angle-down" style="color: #acb7c3"></i>
-              </li>
-              <ul class="lang">
-                <li class="js">
-                  <img src="images/js.png" alt="" />
-                  <h3>JavaScript</h3>
-                </li>
-                <li class="html">
-                  <img src="images/html.png" alt="" />
-                  <h3>HTML</h3>
-                </li>
-                <li class="css">
-                  <img src="images/css.png" alt="" />
-                  <h3>CSS</h3>
-                </li>
-              </ul>
-              <li class="about_stacks__item">
-                <span>Frameworks</span>
-                <i class="fa-solid fa-chevron-right"></i>
-              </li>
-              <li class="about_stacks__item">
-                <span>Skills</span>
-                <i class="fa-solid fa-chevron-right"></i>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <section class="form-container" id="contact-me-id">
-      <div class="section">
-        <div>
-          <h2 class="form-heading">Contact me</h2>
-          <p class="form-para">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
         </div>
-
-        <form action="https://formspree.io/f/xlevolgp" method="post">
-          <label for="name"></label>
-          <input
-            name="name"
-            id="name"
-            type="text"
-            placeholder="name"
-            maxlength="30"
-            required
-          />
-
-          <label for="email"></label>
-          <input
-            name="Email"
-            id="email"
-            type="email"
-            placeholder="enter your email"
-            required
-          />
-          <textarea
-            name="textarea"
-            id="textarea"
-            cols="30"
-            rows="10"
-            maxlength="500"
-            placeholder="Write your message here"
-            required
-          ></textarea>
-          <button class="form-btn" type="submit">Get in touch</button>
-        </form>
-      </div>
+        
     </section>
-  </body>
+    </div>
+    <section class="works " id="works">
+        <div class="container">
+            <div class="cards">
+                <img src="images/Snapshoot-Portfolio.png" alt="The Snapshoot-Portfolio image">
+                <div class="card-data">
+                    <h1 class="title">Tonic</h1>
+                    <div class="position">
+                        <h4 class="place">CANOPY</h4>
+                        <H5 class="post-name">&#x25cf; Back End Dev</H5>
+                        <H5 class="post-year">&#x25cf; 2015</H5>
+                    </div>
+                    <p class="description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <div class="techs">
+                        <div class="single-tech">Html</div>
+                        <div class="single-tech">Css</div>
+                        <div class="single-tech">JavaScript</div>
+                    </div>
+                    <button class="view-more">See Project</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img class="swap" src="images/Snapshoot-Portfolio4.png" alt="The Snapshoot-Portfolio image">
+                <div class="card-data">
+                    <h1 class="title">Multi-Post Stories</h1>
+                    <div class="position">
+                        <h4 class="place">CANOPY</h4>
+                        <H5 class="post-name">&#x25cf; Back End Dev</H5>
+                        <H5 class="post-year">&#x25cf; 2015</H5>
+                    </div>
+                    <p class="description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <div class="techs">
+                        <div class="single-tech">Html</div>
+                        <div class="single-tech">Css</div>
+                        <div class="single-tech">JavaScript</div>
+                    </div>
+                    <button class="view-more">See Project</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="images/Snapshoot-Portfolio2.png" alt="The Snapshoot-Portfolio image">
+                <div class="card-data">
+                    <h1 class="title">Tonic</h1>
+                    <div class="position">
+                        <h4 class="place">CANOPY</h4>
+                        <H5 class="post-name">&#x25cf; Back End Dev</H5>
+                        <H5 class="post-year">&#x25cf; 2015</H5>
+                    </div>
+                    <p class="description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <div class="techs">
+                        <div class="single-tech">Html</div>
+                        <div class="single-tech">Css</div>
+                        <div class="single-tech">JavaScript</div>
+                    </div>
+                    <button class="view-more">See Project</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img class="swap" src="images/Snapshoot-Portfolio3.png" alt="The Snapshoot-Portfolio image">
+                <div class="card-data">
+                    <h1 class="title">Multi-Post Stories</h1>
+                    <div class="position">
+                        <h4 class="place">CANOPY</h4>
+                        <H5 class="post-name">&#x25cf; Back End Dev</H5>
+                        <H5 class="post-year">&#x25cf; 2015</H5>
+                    </div>
+                    <p class="description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <div class="techs">
+                        <div class="single-tech">Html</div>
+                        <div class="single-tech">Css</div>
+                        <div class="single-tech">JavaScript</div>
+                    </div>
+                    <button class="view-more">See Project</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="about-myself" id="about-myself">
+        <div class="about-myself-intro">
+            <div class="container">
+                <h1 class="greetings">
+                    About <br/> Myself
+                </h1>
+                <p class="about-me">
+                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <h3 class="connect-me">
+                    <a href="#">LET'S CONNECT</a>
+                </h3>
+                <ul class="icon-group">
+                    <li class="icon"> <a href=""><i class="fa-brands fa-github"></i></a></li>
+                    <li class="icon"> <a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="icon"> <a href=""><i class="fa-brands fa-angellist"></i></a></li>
+                    <li class="icon"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="icon"> <a href=""><i class="fa-solid fa-m"></i></a></li>
+                </ul>
+                <button class="view-more">Get my resume</button>
+            </div>
+        </div>
+        <div class="about-myself-skills">
+            <div class="container">
+                <div class="skill">
+                    <h4 class="skill-name">Languages</h4>
+                    <i style='font-size:20px' class='fas'>&#xf107;</i>
+                </div>
+                <div class="sub-skills">
+                    
+                    <div class="sub-skill">
+                        <img class="sub-skill-img" src="images/Ellipse1.png" alt="js-logo-img">
+                        <p class="sub-skill-name">JavaScript</p>
+                    </div>
+                    <div class="sub-skill">
+                        <img class="sub-skill-img" src="images/Ellipse2.png" alt="js-logo-img">
+                        <p class="sub-skill-name">HTML</p>
+                    </div>
+                    <div class="sub-skill">
+                        <img class="sub-skill-img" src="images/Ellipse3.png" alt="js-logo-img">
+                        <p class="sub-skill-name">CSS</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4 class="skill-name">Frameworks</h4>
+                    <i style='font-size:20px' class='fas'>&#xf105;</i>
+                </div>
+                <hr>
+                <div class="skill">
+                    <h4 class="skill-name">Skills</h4>
+                    <i style='font-size:20px' class='fas'>&#xf105;</i>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <section class="my-form" id="my-form">
+        <div class="container">
+            <h3 class="contact-title">
+                Contact me
+            </h3>
+            <p class="contact-explanation">
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+            </p>
+            <form action="https://formspree.io/f/xlevolgp" method="post">
+                <div>
+                    <label for="Name" hidden>Name</label>
+                    <input id="username" type="text" name="username" maxlength="30" title="Name should be text and not more than 30 characters" placeholder="Enter your Name">
+                </div>
+                <div>
+                    <label for="email" hidden>Email</label>
+                    <input id="useremail" type="email" name="email" required  title="Only emails are allowed here" placeholder="Enter your Email">
+                </div>
+                <div>
+                    <label for="email" hidden>Description</label>
+                    <textarea id="description" type="text" rows="5" name="description" required maxlength="500" title="description should be not more than 500 characters" placeholder="Write your message here"></textarea>
+                </div>
+                <div id="center">
+                    <button class="view-more" type="submit" >Get in touch</button>
+                </div>
+            </form>
+        </div>
+        <hr class="go-home-bar">
+    </section>
+</body>
+
 </html>

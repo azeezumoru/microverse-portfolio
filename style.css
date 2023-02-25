@@ -10,8 +10,13 @@ body {
 }
 
 .container {
+  /* display: flex; */
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.flex {
+  display: flex;
 }
 
 .fixed-top {
@@ -23,7 +28,7 @@ body {
 }
 
 .navbar {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +45,7 @@ body {
 }
 
 .menu {
+  /* display: none; */
   color: #6070ff;
   font-size: 1.3rem;
 }
@@ -48,8 +54,12 @@ body {
   display: none;
 }
 
+/* .menu-list .flex {
+  display: none;
+} */
+
 .hero {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -90,7 +100,7 @@ body {
 }
 
 .icon-group {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   list-style-type: none;
   padding-left: 0;
@@ -133,7 +143,7 @@ h1.title {
 }
 
 .position {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   align-items: center;
 }
@@ -165,7 +175,7 @@ p.description {
 }
 
 .techs {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   margin-bottom: 20px;
 }
@@ -216,7 +226,7 @@ form div .view-more {
 }
 
 .skill {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -236,12 +246,12 @@ form div .view-more {
 }
 
 .sub-skills {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
 .sub-skill {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   background-color: #f7f7f9;
   border-radius: 8px;
@@ -291,10 +301,10 @@ form div .view-more {
   color: #fff;
 }
 
-form {
+/* form {
   display: flex;
   flex-direction: column;
-}
+} */
 
 form input {
   width: 90%;
@@ -321,6 +331,10 @@ form textarea {
   margin-bottom: 5px;
 }
 
+.flex {
+  display: flex;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
@@ -344,7 +358,8 @@ form textarea {
   }
 
   .menu-list {
-    display: flex;
+    /* display: flex; */
+    /* display: none; */
     flex-direction: row;
     justify-content: space-between;
   }
@@ -367,7 +382,7 @@ form textarea {
   }
 
   .hero {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -553,5 +568,11 @@ form textarea {
 
   .go-home-bar {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .menu-list {
+   display: none;
   }
 }
